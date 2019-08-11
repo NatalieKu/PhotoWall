@@ -80,14 +80,66 @@ class MoonshotCollectionViewController: UICollectionViewController {
            
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "\(MoonshotCollectionViewCell.self)", for: indexPath) as! MoonshotCollectionViewCell
         
-        if indexPath.item.isMultiple(of: 2) {
-    
-            cell.imageView.image = UIImage(named: "pic0")
+        /*
+        if indexPath.item.isMultiple(of: 3) {
+
+           cell.imageView.image = UIImage(named: "pic0")
+        
+        } else {
+            cell.imageView.image = UIImage(named: "pic1")
+            
+       
+        }
+        
+    */
+        
+        var i = indexPath.item
+        
+        if i < 5 {
+            
+            cell.imageView.image = UIImage(named: "pic\(i)")
             
         } else {
-           
-            cell.imageView.image = UIImage(named: "pic1")
+            
+            if i % 5 == 0 {
+                cell.imageView.image = UIImage(named: "pic0")
+                
+            }
+            
+            if i % 5 == 1 {
+                
+                cell.imageView.image = UIImage(named: "pic1")
+                          
+            }
+            
+            if i % 5 == 2 {
+                
+                cell.imageView.image = UIImage(named: "pic2")
+                            
+            }
+
+            if i % 5 == 3 {
+                
+                cell.imageView.image = UIImage(named: "pic3")
+                            
+            }
+            
+            if i % 5 == 4 {
+                
+                cell.imageView.image = UIImage(named: "pic4")
+                            
+            }
         }
+        
+        
+       
+         /*
+        
+        for i in indexPath {
+                   cell.imageView.image = UIImage(named: "pic\(i)")
+            }
+        }
+        */
     
         return cell
         

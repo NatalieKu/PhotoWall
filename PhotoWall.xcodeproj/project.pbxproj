@@ -15,7 +15,6 @@
 		E0607F8622FC7A41002406A6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0607F8422FC7A41002406A6 /* LaunchScreen.storyboard */; };
 		E0607F8E22FC7B1A002406A6 /* MoonshotCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0607F8D22FC7B1A002406A6 /* MoonshotCollectionViewController.swift */; };
 		E0607F9022FC7B49002406A6 /* MoonshotCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0607F8F22FC7B49002406A6 /* MoonshotCollectionViewCell.swift */; };
-		E0607F9222FCA25C002406A6 /* Star Trek (2009) OST 1  Star Trek.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E0607F9122FCA25C002406A6 /* Star Trek (2009) OST 1  Star Trek.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,7 +28,6 @@
 		E0607F8722FC7A41002406A6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E0607F8D22FC7B1A002406A6 /* MoonshotCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonshotCollectionViewController.swift; sourceTree = "<group>"; };
 		E0607F8F22FC7B49002406A6 /* MoonshotCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoonshotCollectionViewCell.swift; sourceTree = "<group>"; };
-		E0607F9122FCA25C002406A6 /* Star Trek (2009) OST 1  Star Trek.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Star Trek (2009) OST 1  Star Trek.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,7 +67,6 @@
 				E0607F8D22FC7B1A002406A6 /* MoonshotCollectionViewController.swift */,
 				E0607F8F22FC7B49002406A6 /* MoonshotCollectionViewCell.swift */,
 				E0607F8222FC7A41002406A6 /* Assets.xcassets */,
-				E0607F9122FCA25C002406A6 /* Star Trek (2009) OST 1  Star Trek.mp3 */,
 				E0607F8422FC7A41002406A6 /* LaunchScreen.storyboard */,
 				E0607F8722FC7A41002406A6 /* Info.plist */,
 			);
@@ -136,7 +133,6 @@
 			files = (
 				E0607F8622FC7A41002406A6 /* LaunchScreen.storyboard in Resources */,
 				E0607F8322FC7A41002406A6 /* Assets.xcassets in Resources */,
-				E0607F9222FCA25C002406A6 /* Star Trek (2009) OST 1  Star Trek.mp3 in Resources */,
 				E0607F8122FC7A3F002406A6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
