@@ -93,7 +93,10 @@ class MoonshotCollectionViewController: UICollectionViewController {
         
     */
         
-        var i = indexPath.item
+ //設i代表cell數，預設五張圖，超過以後要repeat的方式用if來決定
+        
+        let i = indexPath.item
+        
         
         if i < 5 {
             
